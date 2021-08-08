@@ -1,0 +1,339 @@
+body{
+    background: #18191a;
+    color: white !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.heading-1{
+    padding-top: 20px !important;
+    color: silver;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+#title:hover{
+    transition: 1s;
+    letter-spacing: 4px;
+}
+
+#text-field{
+    width: 300px;
+    height: 40px;
+    color: black !important;
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 20px;
+    padding-left: 10px;
+    outline: none;
+
+}
+
+li{
+    color: silver !important;
+    list-style-type: square !important;
+    font-size: 24px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    justify-content: left;
+    text-align: left;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#input-list{
+    font-size: 24px !important;
+    background: #18191a;
+    color: silver;
+    width: 60%;
+    border: none;
+}
+
+.focus-input-list{
+    font-size: 24px;
+    color: silver !important;
+    outline: none;
+}
+
+#list-div{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.list-span{
+    margin-right: 10%;
+}
+
+.fa-edit{
+    color: silver !important;
+    background-color: #18191a;
+    border: none;
+    padding: 0px;
+}
+
+.fa-edit:hover{
+    color: #2196f3 !important;
+}
+
+.focus-text{
+    color: rgb(255, 255, 255) !important;
+}
+
+.fa-save{
+    color: #2196f3 !important;
+}
+
+.fa-save:hover{
+    color: silver !important;
+}
+
+.unfocus-text{
+    color: silver !important;
+}
+
+.fa-trash-alt{
+    color: silver !important;
+    background-color: #18191a;
+    border: none;
+    padding: 0px; 
+}
+
+.fa-trash-alt:hover{
+    color: rgb(240, 61, 61) !important;
+}
+
+#neon-button{
+    margin-left: 10px;
+}
+
+.main-header{
+    margin: 0;
+    padding: 0;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+#neon-button{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    outline: none;
+}
+
+#neon-button:hover{
+    color: #255784;
+    background:silver;
+    box-shadow: 0 0 10px silver, 0 0 40px silver, 0 0 80px silver;
+    transition-delay: 1s;
+}
+
+#neon-button span{
+    position: absolute;
+    display: block;
+}
+
+#neon-button span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,silver);
+}
+
+#neon-button:hover span:nth-child(1){
+   left: 100%;
+   transition: 1s;
+}
+
+#neon-button span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,silver);
+}
+
+#neon-button:hover span:nth-child(3){
+   right: 100%;
+   transition: 1s;
+   transition-delay: 0.5s;
+}
+
+#neon-button span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,silver);
+}
+
+#neon-button:hover span:nth-child(2){
+   top: 100%;
+   transition: 1s;
+   transition-delay: 0.25s;
+}
+
+#neon-button span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,silver);
+}
+
+#neon-button:hover span:nth-child(4){
+   bottom: 100%;
+   transition: 1s;
+   transition-delay: 0.75s;
+}
+
+#neon-button-1{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: silver;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    outline: none;
+}
+#neon-button-1:hover{
+    color: silver;
+    background:#2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 1s;
+}
+
+#neon-button-1 span{
+    position: absolute;
+    display: block;
+}
+
+#neon-button-1 span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#2196f3);
+}
+
+#neon-button-1:hover span:nth-child(1){
+   left: 100%;
+   transition: 1s;
+}
+
+#neon-button-1 span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#2196f3);
+}
+
+#neon-button-1:hover span:nth-child(3){
+   right: 100%;
+   transition: 1s;
+   transition-delay: 0.5s;
+}
+
+#neon-button-1 span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#2196f3);
+}
+
+#neon-button-1:hover span:nth-child(2){
+   top: 100%;
+   transition: 1s;
+   transition-delay: 0.25s;
+}
+
+#neon-button-1 span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#2196f3);
+}
+
+#neon-button-1:hover span:nth-child(4){
+   bottom: 100%;
+   transition: 1s;
+   transition-delay: 0.75s;
+}
+
+.save-btn{
+    background: none;
+    color: silver !important;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    margin-right: 5px;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px 5px 5px 5px;
+    border: none;
+    padding: 0px;
+}
+
+.edit-btn{
+    background: none;
+    color: #2196f3;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 5px 5px 5px 5px;
+    border: none;
+    padding: 0px;
+    outline: none;
+}
+
+.delete-btn:hover, .edit-btn:hover, .save-btn:hover{
+    cursor: pointer;
+}
+
+.delete-btn{
+    color: black;
+    background: none;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 5px 5px 5px 5px;
+    border: none;
+    padding: 0px;
+    outline: none;
+}
+
+
+
+@media only screen and (max-width: 811px){
+    #neon-button-1{
+        display: block;
+    }
+    #neon-button{
+        display: block;
+    }
+    #list-div{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 488px){
+    #list-div{
+        width: 100%;
+    }
+}
